@@ -5,9 +5,12 @@ public class CocheMain {
     public static void main(String[] args) {
 
         String coche = "alfa romeo";
-        Coche cocheObj = new Coche();
 
-        Coche cocheObj2 = new Coche("rojo", "honda", "civic", 1430.45, 5.4);
+        Coche cocheObj = new CocheHibrido();
+
+
+        Coche cocheObj2 = new CocheElectrico("rojo", "honda", "civic", 1430.45, 5.4, "motor");
+
 
         cocheObj2.acelerar(50);
 
