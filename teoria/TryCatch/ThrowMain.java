@@ -14,7 +14,7 @@ public class ThrowMain {
     }
 
     /*
-     *Método que lee nombres de consola y verifica que tengan longitud igual o mayor que 8 carácteres
+     *Método que lee nombres de consola y verifica que tengan longitud igual o mayor que 8 caracteres
      * @throws NameFormatException
      */
     private static void leerNombres() throws NameFormatException {
